@@ -1,0 +1,8 @@
+com/example/crudconsola/entities/Reserva.class
+com/example/crudconsola/CrudconsolaApplication.class
+com/example/crudconsola/entities/Persona.class
+com/example/crudconsola/entities/Cliente.class
+com/example/crudconsola/entities/ProfesionalEspecialidad.class
+com/example/crudconsola/entities/Atencion.class
+com/example/crudconsola/entities/Especialidad.class
+com/example/crudconsola/entities/Profesional.class

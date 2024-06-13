@@ -1,0 +1,9 @@
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/CrudconsolaApplication.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/Atencion.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/Cliente.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/Especialidad.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/Persona.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/Profesional.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/ProfesionalEspecialidad.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/Prueba.java
+/home/golden-dev/Desktop/talento_digital/Modulo6/crudconsola/src/main/java/com/example/crudconsola/entities/Reserva.java
