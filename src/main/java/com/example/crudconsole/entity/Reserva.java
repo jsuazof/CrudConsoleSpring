@@ -1,4 +1,4 @@
-package com.example.crudconsola.entity;
+package com.example.crudconsole.entity;
 
 import java.util.Date;
 
