@@ -1,5 +1,5 @@
 
-package com.example.crudconsola.entities;
+package com.example.crudconsola.entity;
 
 import java.util.Date;
 import java.util.Set;

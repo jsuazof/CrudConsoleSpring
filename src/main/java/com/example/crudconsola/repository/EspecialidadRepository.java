@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.crudconsola.entities.Especialidad;
+import com.example.crudconsola.entity.Especialidad;
 
 public interface EspecialidadRepository extends CrudRepository<Especialidad, Integer> {
 

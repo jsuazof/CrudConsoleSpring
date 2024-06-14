@@ -1,4 +1,4 @@
-package com.example.crudconsola.entities;
+package com.example.crudconsola.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
