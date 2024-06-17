@@ -52,5 +52,5 @@ public class Especialidad {
         this.profesionales = profesionales;
     }
 
-    // Getters and setters
+   
 }

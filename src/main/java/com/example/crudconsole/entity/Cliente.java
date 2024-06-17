@@ -24,6 +24,12 @@ import lombok.ToString;
 
 public class Cliente {
 
+    public Cliente(Object object, String numeroDocumento, String nombre, String apellido, String nacionalidad,
+            Date fecha, Integer genero, String direccion, String comuna, String email, String telefono,
+            String password) {
+        //TODO Auto-generated constructor stub
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_cliente")
@@ -31,6 +37,9 @@ public class Cliente {
     
     @Column(name="tipo_documento_cliente", columnDefinition="int", nullable = false)
     private Integer tipoDocumentoCliente;
+
+    @Column(name="identificador_documento", nullable = false, columnDefinition= "varchar(20)")
+    private String identificadorDocumento;
 
     @Column(name="passord_cliente", nullable = false, columnDefinition= "varchar(12)")
     private String passwordCliente;
@@ -40,6 +49,10 @@ public class Cliente {
 
     @Column(name= "apellido1_cliente", nullable = false, columnDefinition= "varchar(25)")
     private String apellido1Cliente;
+    
+    @Column(name= "apellido2_cliente", nullable = false, columnDefinition= "varchar(25)")
+    private String apellido2Cliente;
+
 
     @Column(name= "nacionalidad_cliente", nullable = false, columnDefinition= "varchar(50)")
     private String nacionalidadCliente;

@@ -11,8 +11,8 @@ import com.example.crudconsole.entity.Especialidad;
 public interface EspecialidadRepository extends JpaRepository<Especialidad, Integer> {
 
     @Query("SELECT e FROM Especialidad e")
-    List<Especialidad> getEspecialidades();
+    public List<Especialidad> getEspecialidades();
 
     @Query("SELECT esp FROM Especialidad esp WHERE esp.idEspecialidad = ?1")
-    Optional<Especialidad> getEspecialidadPorId(Integer id);
+    public Optional<Especialidad> getEspecialidadPorId(Integer id);
 }
