@@ -3,16 +3,22 @@ package com.example.crudconsole.repository;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
 
 import com.example.crudconsole.entity.Especialidad;
 
-public interface EspecialidadRepository extends JpaRepository<Especialidad, Integer> {
+public interface EspecialidadRepository extends
+        CrudRepository<Especialidad,Integer> {
+    //select * from especilidad
+    @Query("select e from Especialidad e")
+     List<Especialidad> getEspecialidades(); //listando especialidades
 
-    @Query("SELECT e FROM Especialidad e")
-    public List<Especialidad> getEspecialidades();
+    //select * from especialidad where id_especialidad = 5
 
-    @Query("SELECT esp FROM Especialidad esp WHERE esp.idEspecialidad = ?1")
-    public Optional<Especialidad> getEspecialidadPorId(Integer id);
+    @Query("select esp from Especialidad esp where esp.idEspecialidad in ?1 ")
+    Optional<Especialidad> getEspecialidadPorId(Integer id);
+
+
+
 }
